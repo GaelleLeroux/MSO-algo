@@ -115,7 +115,6 @@ def Valideur(fichier) :
     i = 1
     while ok:
         char = file.read(1)  
-        print(char) 
         if char=='\n' :
             i+=1   
         if not char:
