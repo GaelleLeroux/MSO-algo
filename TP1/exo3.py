@@ -133,16 +133,16 @@ def Valideur(fichier) :
                     ok = False
                     
     if ouvrant.estVide() and ok :
-        print("Pas de faute")
+        print("Pas d'erreur de syntaxe")
     else :
         print("Erreur de syntaxe ligne : " + str(i))
 
     
     file.close()
 
+file = open('test3.txt', 'r')
 
-
-Valideur("test.txt")
+Valideur("test3.txt")
 
 
         
