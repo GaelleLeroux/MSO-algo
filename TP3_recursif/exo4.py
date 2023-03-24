@@ -18,3 +18,7 @@ def maxliste(liste):
 test = [17,11,33,25,48,18,6]
 ma = maxliste(test)
 print(ma)
+
+print(test[len(test)//2])
+print(test[:len(test)//2])
+print(test[len(test)//2+1:])
